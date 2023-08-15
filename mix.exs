@@ -5,12 +5,12 @@ defmodule Benchwarmer.Mixfile do
     [
       app:          :benchwarmer,
       version:      "0.0.2",
-      elixir:       "~> 1.0.0-rc1",
-      deps:         deps,
+      elixir:       "~> 1.0",
+      deps:         deps(),
       name:         "Benchwarmer",
       source_url:   "https://github.com/mroth/benchwarmer",
-      description:  description,
-      package:      package
+      description:  description(),
+      package:      package()
     ]
   end
 
